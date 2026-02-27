@@ -6,15 +6,15 @@
   "email": "zeebot10@proton.me",
   "social": {
     "github": "zeebot99",
-    "mastodon": "@social.lol/@zeebot"
+    "mastodon": "https://social.lol/@zeebot"
   },
   "repo": {
     "url": "https://github.com/zeebot99/web-blog",
     "branch": "main"
   },
   "bio": {
-    "short": "Writer, thinker, and digital minimalist",
-    "long": "I'm passionate about thoughtful writing, meaningful connections, and building a more human web. This is my corner of the internet where I share ideas, experiences, and discoveries."
+    "short": "Writer, thinker, and systems tinkerer.",
+    "long": "I'm passionate about decentering Big Tech, meaningful human connection, technology, and note taking. This is my space to write and share that with other Internet citizens."
   },
   "location": "San Francisco Bay Area, U.S.",
   "timezone": "America/Los_Angeles",
@@ -59,7 +59,7 @@
     "notes": { "enabled": true, "title": "Notes", "path": "/notes/" },
     "journal": { "enabled": false, "title": "Journal", "path": "/journal/" },
     "poetry": { "enabled": false, "title": "Poetry", "path": "/poetry/" },
-    "portfolio": { "enabled": false, "title": "Portfolio", "path": "/portfolio/" },
+    "portfolio": { "enabled": true, "title": "Portfolio", "path": "/portfolio/" },
     "projects": { "enabled": true, "title": "Projects", "path": "/projects/" },
     "resume": { "enabled": true, "title": "Résumé", "path": "/resume/" },
     "type": { "enabled": true, "title": "Type", "path": "/type/" },

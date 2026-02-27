@@ -16,7 +16,7 @@ title: About
       {{ icon('mail','w-4 h-4') }} <span>{{ site.email }}</span>
     </a>
     {% if site.social.mastodon %}
-    <a class="u-url inline-flex items-center gap-1" rel="me" href="{{ site.social.mastodon | replace('@', 'https://') | replace('@', '/') }}">
+    <a class="u-url inline-flex items-center gap-1" rel="me" href="{{ site.social.mastodon | replace('@', '/') }}">
       {{ icon('mastodon','w-4 h-4') }} <span>Mastodon</span>
     </a>
     {% endif %}
@@ -31,6 +31,6 @@ title: About
     </a>
     {% endif %}
   </div>
-  <p class="p-locality mt-2">Your City</p>
-  <p class="p-country-name">Your Country</p>
+  <p class="p-locality mt-2">San José, CA</p>
+  <p class="p-country-name">U.S.</p>
 </div>
