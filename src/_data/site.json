@@ -1,36 +1,35 @@
 {
-  "name": "Indieweb Starter Blog",
-  "description": "Stop doomscrolling, start creating. Own a part of the Internet again.",
-  "url": "https://indieweb-template.netlify.app",
-  "author": "Your Name",
-  "email": "your@email.com",
+  "name": "🌌zee's space",
+  "description": "Security engineer by day, IndieWeb lurker and programmer by night.",
+  "url": "https://localhost:8080",
+  "author": "zeebot",
+  "email": "zeebot10@proton.me",
   "social": {
-    "github": "yourusername",
-    "mastodon": "@yourhandle@mastodon.social",
-    "twitter": "@yourhandle"
+    "github": "zeebot99",
+    "mastodon": "@social.lol/@zeebot"
   },
   "repo": {
-    "url": "https://github.com/brennanbrown/11ty-Indie-Web-Blog-Starter",
+    "url": "https://github.com/zeebot99/web-blog",
     "branch": "main"
   },
   "bio": {
     "short": "Writer, thinker, and digital minimalist",
     "long": "I'm passionate about thoughtful writing, meaningful connections, and building a more human web. This is my corner of the internet where I share ideas, experiences, and discoveries."
   },
-  "location": "Your City, Country",
+  "location": "San Francisco Bay Area, U.S.",
   "timezone": "America/Los_Angeles",
   "newsletter": {
-    "enabled": true,
+    "enabled": false,
     "provider": "buttondown",
     "action": "https://buttondown.email/api/emails/embed-subscribe/yourusername",
     "title": "Join the Newsletter",
     "description": "Get thoughtful updates delivered to your inbox. No spam, just meaningful content."
   },
   "donate": {
-    "enabled": true,
+    "enabled": false,
     "kofi": "yourusername",
     "buymeacoffee": "yourusername",
-    "github": "yourusername",
+    "github": "zeebot99",
     "message": "If you find value in my writing, consider supporting my work. Every contribution helps me continue creating thoughtful content."
   },
   "analytics": {
@@ -58,9 +57,9 @@
   },
   "sections": {
     "notes": { "enabled": true, "title": "Notes", "path": "/notes/" },
-    "journal": { "enabled": true, "title": "Journal", "path": "/journal/" },
-    "poetry": { "enabled": true, "title": "Poetry", "path": "/poetry/" },
-    "portfolio": { "enabled": true, "title": "Portfolio", "path": "/portfolio/" },
+    "journal": { "enabled": false, "title": "Journal", "path": "/journal/" },
+    "poetry": { "enabled": false, "title": "Poetry", "path": "/poetry/" },
+    "portfolio": { "enabled": false, "title": "Portfolio", "path": "/portfolio/" },
     "projects": { "enabled": true, "title": "Projects", "path": "/projects/" },
     "resume": { "enabled": true, "title": "Résumé", "path": "/resume/" },
     "type": { "enabled": true, "title": "Type", "path": "/type/" },
