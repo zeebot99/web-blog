@@ -1,0 +1,3 @@
+Entity: zee's space, US
+Privacy-policy: https://zeebot.weblog.lol/privacy
+Contact: mailto:zeebot@omg.lol

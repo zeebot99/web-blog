@@ -1,0 +1,23 @@
+/* humans.org */
+
+/* TEAM */
+    Creator: zeebot
+    Site: zeebot.weblog.lol
+    From: San José, US
+    Powered by: ramen, fight scenes, and hope
+
+/* THANKS */
+    Inspiration: https://shellsharks.com (IndieWeb)
+    Inspiration: https://brennan.day/ (creator of this theme)
+
+/* SITE */
+    Founded: January 2026
+    IDE: VS Codium
+    Hosting: GitHub Pages & Eleventy
+    Logo: site name
+    Icons: FontAwesome
+        (https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)
+    
+/* Approach */
+Indieweb, no ads, highly linked, work-in-progress,
+stitched together, secure by default, offbeat, unserious.

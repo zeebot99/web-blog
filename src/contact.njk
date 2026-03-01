@@ -3,14 +3,14 @@ layout: layouts/base.njk
 permalink: "/contact/"
 title: Contact
 ---
-<h1 class="text-2xl font-bold mb-6">Get in Touch</h1>
+<h1 class="text-2xl font-bold mb-6">Come say hi!</h1>
 
-<p>I'd love to hear from you! Whether you have questions, feedback, or just want to say hello, 
+<p>I believe the web is all about community! Whether you have questions, feedback, or just want to say hello, 
      feel free to reach out through any of the channels below.</p>
 
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
   <div>
-    <h2>say hi!</h2>
+    <h2 class="text-xl font-semibold mb-4">here's how (to say hi):</h2>
     <ul class="space-y-3 mt-4">
       <li class="flex items-center gap-3">
         <span class="text-blue-600">📧</span>
@@ -28,12 +28,18 @@ title: Contact
         <a href="{{ site.social.mastodon | replace('@', 'https://') | replace('@', '/') }}" target="_blank" rel="noopener" class="hover:text-blue-600">mastodon</a>
       </li>
       {% endif %}
+      <li class="flex items-center gap-3">
+        <span class="text-blue-600">💬</span>
+        <a href="https://signal.me/#eu/JyWtgwVbp5OLVY9o6DD4ZWA4M8a12hSm00QWGinHTA-O8vEID5BMyq7qs8sKZubS" target="_blank" rel="noopener" class="hover:text-blue-600">signal</a>
+      </li>
+      <p>I'm also on instant relay chat (IRC) channels as <code>zeebot</code>, but I'm mainly a lurker there.</p>
     </ul>
   </div>
 
   <div>
     <h2 class="text-xl font-semibold mb-4">contact form</h2>
     <p>Send me something here and I'll reply via email.</p>
+    <br>
     <script data-letterbirduser="zeebot10" src="https://letterbird.co/embed/v1.js"></script>
   </div>
 </div>

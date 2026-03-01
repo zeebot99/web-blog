@@ -1,22 +1,23 @@
 {
-  "name": "🌌zee's space",
+  "name": "🌌zee's space🌌",
   "description": "Security engineer by day, IndieWeb lurker and programmer by night.",
   "url": "https://localhost:8080",
   "author": "zeebot",
-  "email": "zeebot10@proton.me",
+  "email": "zeebot@omg.lol",
   "social": {
     "github": "zeebot99",
-    "mastodon": "https://social.lol/@zeebot"
+    "mastodon": "https://social.lol/@zeebot",
+    "signal": "https://signal.me/#eu/JyWtgwVbp5OLVY9o6DD4ZWA4M8a12hSm00QWGinHTA-O8vEID5BMyq7qs8sKZubS"
   },
   "repo": {
     "url": "https://github.com/zeebot99/web-blog",
     "branch": "main"
   },
   "bio": {
-    "short": "Writer, thinker, and systems tinkerer.",
-    "long": "I'm passionate about decentering Big Tech, meaningful human connection, technology, and note taking. This is my space to write and share that with other Internet citizens."
+    "short": "Black neurodivergent nerd. Writer, thinker, and systems tinkerer.",
+    "long": "I'm passionate about decentering Big Tech, meaningful human connection, technology, note taking, music, dance, writing, and staying true in a world gone false. This is my space to write and share that with other Internet citizens."
   },
-  "location": "San Francisco Bay Area, U.S.",
+  "location": "San Francisco Bay Area, USA",
   "timezone": "America/Los_Angeles",
   "newsletter": {
     "enabled": false,

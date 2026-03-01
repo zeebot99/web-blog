@@ -1,12 +1,17 @@
 ---
 layout: layouts/base.njk
 permalink: "/about/"
-title: About
+title: about
 ---
 <div class="h-card">
   <img class="u-photo w-24 h-24 rounded-full" src="/assets/profile.jpg" alt="{{ site.author }}" />
   <h1 class="p-name text-2xl font-bold mt-2">{{ site.author }}</h1>
-  <p class="p-note mt-2">Hey y'all! You can call me Zee. I'm a black, panromantic, demisexual, polyamorous genderfluid person with diagnosed C-PSTD. I code for fun and secure data for work. I live in San Jose with my partner of two years and our cat, but I'm from Houston, TX. I love making imperfect, creative, messy things. Fascists (including "MAGA"), racists, sexists, transphobes, queerphobes, and ableists will be mocked and blocked 🥰</p>
+  <p class="p-note mt-2">
+    Hey y'all! You can call me Zee. I'm a black, panromantic, demisexual, polyamorous genderfluid person with diagnosed 
+    C-PSTD. I code for fun and secure data for work. I live in San Jose with my partner of two years and our cat, but 
+    I'm from Houston, TX. I love making imperfect, creative, messy things. Fascists (including "MAGA"), racists, sexists, 
+    transphobes, queerphobes, and ableists will be mocked and blocked 🥰
+  </p>
   <div class="contact-info mt-2 flex flex-wrap gap-3 items-center">
     {% from "partials/icons.njk" import icon %}
     <a class="u-url inline-flex items-center gap-1" href="{{ site.url }}" rel="me">

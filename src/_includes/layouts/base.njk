@@ -227,27 +227,27 @@
       <ul class="flex flex-col md:flex-row text-base md:text-sm space-y-3 md:space-y-0 md:space-x-6">
         <li>
           <a href="/" class="nav-item block py-2 text-purple-600 dark:text-purple-400 {% if isHome %}underline font-semibold{% endif %}"
-             {% if isHome %}aria-current="page"{% endif %}>🏠 Home</a>
+             {% if isHome %}aria-current="page"{% endif %}>🏠 home</a>
         </li>
         <li>
           <a href="/blog/" class="nav-item block py-2 text-purple-600 dark:text-purple-400 {% if isBlog %}underline font-semibold{% endif %}"
-             {% if isBlog %}aria-current="page"{% endif %}>✍️ Blog</a>
+             {% if isBlog %}aria-current="page"{% endif %}>✍🏾 blog</a>
         </li>
         <li>
           <a href="/about/" class="nav-item block py-2 text-purple-600 dark:text-purple-400 {% if isAbout %}underline font-semibold{% endif %}"
-             {% if isAbout %}aria-current="page"{% endif %}>👋 About</a>
+             {% if isAbout %}aria-current="page"{% endif %}>👋🏾 about</a>
         </li>
         <li>
           <a href="/uses/" class="nav-item block py-2 text-purple-600 dark:text-purple-400 {% if isUses %}underline font-semibold{% endif %}"
-             {% if isUses %}aria-current="page"{% endif %}>🛠️ Uses</a>
+             {% if isUses %}aria-current="page"{% endif %}>🛠️ uses</a>
         </li>
         <li>
           <a href="/now/" class="nav-item block py-2 text-purple-600 dark:text-purple-400 {% if isNow %}underline font-semibold{% endif %}"
-             {% if isNow %}aria-current="page"{% endif %}>📍 Now</a>
+             {% if isNow %}aria-current="page"{% endif %}>📍 now</a>
         </li>
         <li>
           <a href="/contact/" class="nav-item block py-2 text-purple-600 dark:text-purple-400 {% if isContact %}underline font-semibold{% endif %}"
-             {% if isContact %}aria-current="page"{% endif %}>💬 Contact</a>
+             {% if isContact %}aria-current="page"{% endif %}>💬 contact</a>
         </li>
       </ul>
     </div>
@@ -263,10 +263,10 @@
     <div class="container mx-auto px-4 py-8 max-w-4xl">
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
         <div>
-          <h3 class="font-semibold mb-2">Technical</h3>
+          <h3 class="font-semibold mb-2">technologic</h3>
           <ul class="space-y-1 text-gray-600 dark:text-gray-400">
-            <li><a href="https://11ty.dev" target="_blank" rel="noopener">Built with Eleventy</a></li>
-            <li><a href="/style/" class="hover:text-blue-600">Style Guide</a></li>
+            <li><a href="https://11ty.dev" target="_blank" rel="noopener">built with eleventy</a></li>
+            <li><a href="/style/" class="hover:text-blue-600">style guide</a></li>
             {% set cleanedPath = (page.inputPath or '') | replace('./', '') %}
             {% if site.repo and site.repo.url %}
               {% set editUrl = site.repo.url + '/edit/' + (site.repo.branch or 'main') + '/' + cleanedPath %}
@@ -275,48 +275,49 @@
               {% set editUrl = '#' %}
               {% set guideUrl = '#' %}
             {% endif %}
-            <li><a href="{{ editUrl }}" class="hover:text-blue-600" target="_blank" rel="noopener">Edit This Page</a></li>
-            <li><a href="{{ guideUrl }}" class="hover:text-blue-600" target="_blank" rel="noopener">Project Guide</a></li>
+            <li><a href="{{ editUrl }}" class="hover:text-blue-600" target="_blank" rel="noopener">edit page on github</a></li>
+            <li><a href="{{ guideUrl }}" class="hover:text-blue-600" target="_blank" rel="noopener">project guide</a></li>
           </ul>
         </div>
         <div>
-          <h3 class="font-semibold mb-2">Navigation</h3>
+          <h3 class="font-semibold mb-2">navigation</h3>
           <ul class="space-y-1 text-gray-600 dark:text-gray-400">
-            <li><a href="/sitemap/" class="hover:text-blue-600">Sitemap</a></li>
-            <li><a href="/archive/" class="hover:text-blue-600">Archive</a></li>
-            <li><a href="/categories/" class="hover:text-blue-600">Categories</a></li>
+            <li><a href="/sitemap/" class="hover:text-blue-600">sitemap</a></li>
+            <li><a href="/archive/" class="hover:text-blue-600">archive</a></li>
+            <li><a href="/categories/" class="hover:text-blue-600">categories</a></li>
+            <li><a href="/tags/" class="hover:text-blue-600">tags</a></li>
           </ul>
         </div>
         <div>
-          <h3 class="font-semibold mb-2">Connect</h3>
+          <h3 class="font-semibold mb-2">connect</h3>
           <ul class="space-y-1 text-gray-600 dark:text-gray-400">
             {% from "partials/icons.njk" import icon %}
             {% if site.webring and site.webring.enabled %}
-            <li><a href="{{ site.webring.url }}" target="_blank" rel="noopener" class="hover:text-blue-600">Indie Webring</a></li>
+            <li><a href="{{ site.webring.url }}" target="_blank" rel="noopener" class="hover:text-blue-600">webrings</a></li>
             {% endif %}
             <li>
               <a href="mailto:{{ site.email }}" rel="me" class="inline-flex items-center gap-2 hover:text-blue-600">
-                {{ icon('mail', 'w-4 h-4') }} <span>Email</span>
+                {{ icon('mail', 'w-4 h-4') }} <span>email</span>
               </a>
             </li>
             {% if site.social.github %}
             <li>
               <a href="https://github.com/{{ site.social.github }}" target="_blank" rel="me noopener" class="inline-flex items-center gap-2 hover:text-blue-600">
-                {{ icon('github', 'w-4 h-4') }} <span>GitHub</span>
+                {{ icon('github', 'w-4 h-4') }} <span>github</span>
               </a>
             </li>
             {% endif %}
             {% if site.social.mastodon %}
             <li>
               <a href="{{ site.social.mastodon | replace('@', 'https://') | replace('@', '/') }}" target="_blank" rel="me noopener" class="inline-flex items-center gap-2 hover:text-blue-600">
-                {{ icon('mastodon', 'w-4 h-4') }} <span>Mastodon</span>
+                {{ icon('mastodon', 'w-4 h-4') }} <span>mastodon</span>
               </a>
             </li>
             {% endif %}
-            {% if site.social.twitter %}
+            {% if site.social.signal %}
             <li>
-              <a href="https://twitter.com/{{ site.social.twitter | replace('@','') }}" target="_blank" rel="me noopener" class="inline-flex items-center gap-2 hover:text-blue-600">
-                {{ icon('x', 'w-4 h-4') }} <span>Twitter</span>
+              <a href="{{ site.social.signal }}" target="_blank" rel="me noopener" class="inline-flex items-center gap-2 hover:text-blue-600">
+                {{ icon('signal', 'w-4 h-4') }} <span>signal</span>
               </a>
             </li>
             {% endif %}
@@ -327,6 +328,7 @@
         <p>
           2025 {{ site.name }} •
           <a href="/feed.xml" class="hover:text-blue-600">RSS</a> •
+          Created using the <a href="https://indieweb-blog-starter.netlify.app/" target="_blank" rel="noopener" class="hover:text-blue-600">11ty-Indie-Web-Blog-Starter</a> theme •
           Code: <a href="https://opensource.org/license/mit" target="_blank" rel="noopener" class="hover:text-blue-600">MIT</a> •
           Content: <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener" class="hover:text-blue-600">CC BY-NC-SA 4.0</a>
         </p>

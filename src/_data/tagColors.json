@@ -4,8 +4,8 @@
   "javascript": "#f59e0b",
   "css": "#06b6d4",
   "html": "#ef4444",
-  "eleventy": "#10b981",
-  "tailwind": "#06b6d4",
+  "11ty": "#10b981",
+  "random facts": "#06b6d4",
   "tutorial": "#f97316",
   "guide": "#84cc16",
   "tips": "#eab308",
@@ -16,7 +16,8 @@
   "web": "#3b82f6",
   "design": "#8b5cf6",
   "accessibility": "#10b981",
-  "performance": "#f59e0b",
-  "seo": "#ef4444",
-  "indieweb": "#06b6d4"
+  "reading logs": "#f59e0b",
+  "cooking": "#ef4444",
+  "indieweb": "#06b6d4",
+  "tools": "#3b82f6"
 }

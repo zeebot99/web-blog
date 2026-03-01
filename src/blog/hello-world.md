@@ -1,25 +1,18 @@
 ---
 layout: layouts/post.njk
-title: Hello, World
-subtitle: Welcome to your new blog
-author: Your Name
-date: 2025-08-01
-description: First post introducing the new JAMstack blog template.
-tags: [intro, meta]
-featuredImage: /assets/og-default.png
-category: announcements
+title: Hello, world!
+subtitle: New year, new blog.
+author: zeebot
+date: 2026-01-05
+description: My first post on this weblog.
+tags: [intro, meta, personal]
+featuredImage: /assets/retro-stars.png
+category: posts
 ---
 
-Welcome to your new JAMstack blog! This is a sample post to verify the Eleventy + Tailwind setup, dark mode, and the basic layout. 
+# Hello, world!
+I just joined this [omg.lol](https://omg.lol) community today. My laptop has bricked itself and disconnected the hard drive, which means all my data might be gone, including all my [digital garden's](https://zeebots-garden.vercel.app) files. I had been slacking on my hard drive backup too :( We'll see if OneDrive did its job.
 
-This template includes:
+In an attempt to not be upset about this, and to simplify posting on my end even further, I came here. I've had my eye on this service for a while, but needing a place to write publicly without a laptop made me finally take the leap. I love all the features they offer. I think I'm gonna like this place.
 
-- Built with Eleventy
-- Styled with Tailwind CSS
-- IndieWeb features (Microformats2, Webmentions)
-- Accessibility controls
-- Dark mode support
-- Search functionality
-- And much more!
-
-Edit this post in `src/blog/hello-world.md` to get started.
+Now to add tons of slash pages.

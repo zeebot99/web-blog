@@ -1,0 +1,4 @@
+Contact: mailto:zeebot@omg.lol
+Expires: 2027-02-28T00:26:00.000Z
+Preferred-Languages: en
+Policy: https://zeebot.weblog.lol/privacy
