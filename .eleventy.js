@@ -1,12 +1,9 @@
 const { DateTime } = require("luxon");
 const tagColors = require("./src/_data/tagColors.json");
 
-module.exports = await async function(eleventyConfig) {
+module.exports = function(eleventyConfig) {
   // Filters
   // JSON stringify helper for Nunjucks (used by search.json)
-  const { HtmlBasePlugin } = await import("@11ty/eleventy");
-	eleventyConfig.addPlugin(HtmlBasePlugin);
-  
   eleventyConfig.addFilter("json", (value, spaces = 0) => {
     try {
       return JSON.stringify(value, null, spaces);
@@ -14,9 +11,6 @@ module.exports = await async function(eleventyConfig) {
       return "null";
     }
   });
-  module.exports.config = {
-	  pathPrefix: "/web-blog/",
-  }
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     try {
       return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("LLLL d, yyyy");
