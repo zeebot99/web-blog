@@ -1,7 +1,7 @@
 const { DateTime } = require("luxon");
 const tagColors = require("./src/_data/tagColors.json");
 
-module.exports = await function(eleventyConfig) {
+module.exports = await async function(eleventyConfig) {
   // Filters
   // JSON stringify helper for Nunjucks (used by search.json)
   const { HtmlBasePlugin } = await import("@11ty/eleventy");
